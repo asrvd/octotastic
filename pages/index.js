@@ -20,11 +20,11 @@ export default function Home() {
     <div className='flex items-center flex-col align-center justify-center h-screen w-screen px-6 bg-gray-700'>
       <div className='flex items-center flex-col align-center justify-center h-5/6 w-screen px-6 bg-gray-700 gap-3'>
         <div className='flex gap-3 justify-center align-center items-center'>
-          <Link href="https://github.com/asheeeshh/">
-            <img alt="Stargazers" src="https://img.shields.io/github/stars/asheeeshh/ashterm?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></img>
+          <Link href="https://github.com/asheeeshh/octotastic">
+            <img alt="Stargazers" src="https://img.shields.io/github/stars/asheeeshh/octotastic?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></img>
           </Link>
-          <Link href="https://github.com/asheeeshh/">
-            <img alt="Stargazers" src={`https://img.shields.io/badge/Hits-${count}-lightgrey?style=for-the-badge&logo=vercel&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41`}></img>
+          <Link href="https://octotastic.now.sh/">
+            <img alt="Hits" src={`https://img.shields.io/badge/Hits-${count}-lightgrey?style=for-the-badge&logo=vercel&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41`}></img>
           </Link>
         </div>
         <div className='flex flex-col justify-center items-center align-center lg:w-3/6 md:w-3/4 w-full bg-gray-600 p-20 shadow-2xl rounded'>
