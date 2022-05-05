@@ -14,10 +14,6 @@ export default function Home() {
         setCount(res)
       })
   }, [])
-  useEffect(() => {
-    console.log('MOUNTED');
-    return () => console.log('UNMOUNTED');
-  });
   return (
     <div className='flex items-center flex-col align-center justify-center h-screen w-screen px-6 bg-gray-700'>
       <div className='flex items-center flex-col align-center justify-center h-5/6 w-screen px-6 bg-gray-700 gap-3'>

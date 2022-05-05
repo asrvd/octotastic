@@ -14,9 +14,6 @@ export default function Index() {
     }
     return (
         <div className='flex flex-col align-center items-center justify-center h-screen w-screen px-6 bg-gray-700 font-mono gap-3'>
-            <a href="https://github.com/asheeeshh/octotastic">
-                <img alt="Stargazers" src="https://img.shields.io/github/stars/asheeeshh/octotastic?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></img>
-            </a>
             <div className='flex flex-col align-center items-center justify-center h-5/6 w-screen px-6 bg-gray-700 font-mono'>
                 <h2 className='text-2xl lg:text-3xl md:text-3xl font-mono font-extrabold mb-3 text-gray-200'>✨Octotastic/Stats</h2>
                 <div className='lg:w-2/5 md:w-2/4 w-full'>
