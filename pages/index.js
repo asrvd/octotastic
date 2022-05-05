@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable @next/next/a-passhref */
-
 import {useState, useEffect} from 'react'
 import { Count } from '../lib/Count'
 import { useRouter } from 'next/router'
