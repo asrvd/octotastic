@@ -3,10 +3,12 @@
 
 import {useState, useEffect} from 'react'
 import { Count } from '../lib/Count'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 export default function Home() {
   const [count, setCount] = useState(0)
+  const router = useRouter()
   useEffect(() => {
       Count().then(res => {
         setCount(res)
