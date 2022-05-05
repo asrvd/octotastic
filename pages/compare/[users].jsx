@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Modal from "../../components/Modal";
 import CompareCard from "../../components/CompareCard";
 import { getIssues } from "../../lib/GetIssues";
-import { getPRS } from "../../lib/GetPrs";
+import { getPRS } from "../../lib/GetPRS";
 import { getStarsAndForks } from "../../lib/GetStarsAndForks";
 import { getCommits } from "../../lib/GetCommits";
 import { getUser } from "../../lib/GetUser";

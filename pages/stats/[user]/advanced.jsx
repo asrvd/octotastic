@@ -3,7 +3,7 @@ import {useRouter} from 'next/router'
 import { useState, useEffect } from 'react';
 import GhPolyglot from 'gh-polyglot';
 import LangCharts from '../../../components/LangCharts';
-import { getPRS } from '../../../lib/GetPrs';
+import { getPRS } from '../../../lib/GetPRS';
 import { getIssues } from '../../../lib/GetIssues';
 import { getCommits } from '../../../lib/GetCommits';
 
