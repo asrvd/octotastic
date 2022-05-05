@@ -1,10 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable @next/next/link-passhref */
+/* eslint-disable @next/next/a-passhref */
 
 import {useState, useEffect} from 'react'
 import { Count } from '../lib/Count'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
 
 export default function Home() {
   const [count, setCount] = useState(0)
@@ -18,12 +17,12 @@ export default function Home() {
     <div className='flex items-center flex-col align-center justify-center h-screen w-screen px-6 bg-gray-700'>
       <div className='flex items-center flex-col align-center justify-center h-5/6 w-screen px-6 bg-gray-700 gap-3'>
         <div className='flex gap-3 justify-center align-center items-center'>
-          <Link href="https://github.com/asheeeshh/octotastic">
+          <a href="https://github.com/asheeeshh/octotastic/">
             <img alt="Stargazers" src="https://img.shields.io/github/stars/asheeeshh/octotastic?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></img>
-          </Link>
-          <Link href="https://octotastic.now.sh/">
+          </a>
+          <a href="https://octotastic.now.sh/">
             <img alt="Hits" src={`https://img.shields.io/badge/Hits-${count}-lightgrey?style=for-the-badge&logo=vercel&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41`}></img>
-          </Link>
+          </a>
         </div>
         <div className='flex flex-col justify-center items-center align-center lg:w-3/6 md:w-3/4 w-full bg-gray-600 p-20 shadow-2xl rounded'>
           <h2 className='text-2xl lg:text-3xl md:text-3xl font-mono font-extrabold mb-3 text-gray-200'>✨Octotastic</h2>
@@ -35,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col justify-end align-center items-center w-full h-1/6 p-3">
-        <h3 className='text-md font-mono font-extrabold text-gray-200'>{`Made with <3 by `}<Link href="https://github.com/asheeeshh" className='cursor-pointer font-extrabold text-white'>ashish</Link></h3>
+        <h3 className='text-md font-mono font-extrabold text-gray-200'>{`Made with <3 by `}<a href="https://github.com/asheeeshh" className='cursor-pointer font-extrabold text-white'>ashish</a></h3>
       </div>
     </div>
   )
