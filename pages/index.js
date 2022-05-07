@@ -2,6 +2,7 @@
 import {useState, useEffect} from 'react'
 import { Count } from '../lib/Count'
 import { useRouter } from 'next/router'
+import Script from 'next/script'
 
 export default function Home() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ export default function Home() {
       <div className="flex flex-col justify-end align-center items-center w-full h-1/6 p-3">
         <h3 className='text-md font-mono font-extrabold text-gray-200'>{`Made with <3 by `}<a href="https://github.com/asheeeshh" className='cursor-pointer font-extrabold text-white'>ashish</a></h3>
       </div>
+      <Script async src="https://zink.tips/zwc.js?rid=6275e466b27e5a3858ea1ee2&c=silver"></Script>
     </div>
   )
 }
